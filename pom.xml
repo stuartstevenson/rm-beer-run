@@ -41,6 +41,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
+        <dependency>
+            <groupId>org.sitemesh</groupId>
+            <artifactId>sitemesh</artifactId>
+            <version>3.0-alpha-2</version>
+        </dependency>
+
 		<!-- These dependencies are here just for enabling logging -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -62,6 +68,11 @@
 			<scope>test</scope>
 		</dependency>
 
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1-b07</version>
+        </dependency>
 
 	</dependencies>
 
